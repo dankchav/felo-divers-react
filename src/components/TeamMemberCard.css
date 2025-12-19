@@ -1,0 +1,126 @@
+/* ===================================== */
+/* CONTENEDOR DE SECCIONES (Desde Equipo.jsx) */
+/* ===================================== */
+
+.team-sections-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.team-section {
+    margin-bottom: 50px;
+}
+
+.team-role-heading {
+    font-size: 2rem;
+    color: #004d99; /* Azul oscuro para los títulos de sección */
+    border-bottom: 3px solid #007bff; /* Línea de color primario */
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.team-members-grid {
+    display: grid;
+    /* Diseño responsivo: 1 columna en móvil, 2 en tablet, 3 en desktop */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+
+/* ===================================== */
+/* ESTILOS DE LA TARJETA TeamMemberCard */
+/* ===================================== */
+
+.team-member-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.team-member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.member-image-container {
+    width: 100%;
+    height: 350px; /* Altura fija para la imagen */
+    overflow: hidden;
+}
+
+.member-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+    transition: transform 0.5s ease;
+}
+
+.team-member-card:hover .member-image {
+    transform: scale(1.05);
+}
+
+.member-details {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-name {
+    font-size: 1.6rem;
+    color: #343a40;
+    margin-bottom: 5px;
+}
+
+.member-role {
+    font-size: 1rem;
+    color: #007bff; /* Color primario para el rol */
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.member-description {
+    font-size: 0.95rem;
+    color: #6c757d;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    flex-grow: 1; /* Permite que la descripción ocupe espacio */
+}
+
+.member-padi {
+    font-size: 0.85rem;
+    color: #28a745; /* Verde para destacar la certificación */
+    font-weight: 500;
+    margin-top: auto; /* Empuja el PADI number al fondo de la tarjeta */
+}
+
+.member-padi strong {
+    font-weight: 700;
+}
+
+
+/* ===================================== */
+/* MEDIA QUERIES (Ajustes responsivos) */
+/* ===================================== */
+@media (max-width: 768px) {
+    .team-members-grid {
+        grid-template-columns: 1fr; /* Una sola columna en tablet/móvil */
+    }
+    
+    .member-image-container {
+        height: 300px; 
+    }
+    
+    .team-role-heading {
+        font-size: 1.8rem;
+    }
+}

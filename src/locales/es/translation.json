@@ -1,0 +1,150 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "camps": "Campamentos",
+        "experiences": "Experiencias",
+        "trips": "Viajes",
+        "certifications": "Certificaciones",
+        "team": "Equipo",
+        "view_details": "Ver Detalles"
+    },
+    "hero": {
+        "title": "¡VEN A VIVIR LA MEJOR <br /> EXPERIENCIA DE BUCEO!",
+        "subtitle": "¿Qué estás esperando?"
+    },
+    "button": {
+        "view_more": "Ver más"
+    },
+    "page_titles": {
+        "camps": "CAMPAMENTOS",
+        "camps_full": "CAMPAMENTOS DE BUCEO <br /> PADI",
+        "trips": "VIAJES",
+        "experiences": "EXPERIENCIAS",
+        "team": "EQUIPO",
+        "certifications": "CERTIFICACIONES",
+        "login": "INGRESAR",
+        "register": "REGISTRARSE"
+    },
+    "search": {
+        "title": "Resultados de Búsqueda para:",
+        "placeholder": "Buscar",
+        "no_results": "No se encontraron resultados para:"
+    },
+    "footer": {
+        "subscription_heading": "Únete al boletín de la aventura para recibir nuestras mejores ofertas vacacionales",
+        "subscription_text": "Puedes darte de baja en cualquier momento.",
+        "email_placeholder": "Tu Correo Electrónico",
+        "subscribe_button": "Suscribirse",
+        "rights": "Felo Divers ©",
+        "headings": {
+            "about_us": "Acerca de Nosotros",
+            "contact_us": "Contáctanos",
+            "videos": "Videos",
+            "social_media": "Redes Sociales"
+        },
+        "links": {
+            "how_it_works": "¿Cómo funciona?",
+            "testimonials": "Testimonios",
+            "careers": "Carreras",
+            "investors": "Inversores",
+            "terms": "Términos de Servicio",
+            "contact": "Contacto",
+            "support": "Soporte",
+            "destinations": "Destinos",
+            "sponsorships": "Patrocinios",
+            "submit_video": "Enviar Video",
+            "ambassadors": "Embajadores",
+            "agency": "Agencia",
+            "influencer": "Influencers"
+        }
+    },
+    "cart": {
+        "title": "Tu Carrito ({{count}})", 
+        "empty_message": "¡Tu carrito está vacío!",
+        "remove_item_title": "Eliminar ítem",
+        "total_label": "Total",
+        "checkout_button": "Finalizar Compra"
+    },
+    "cards": {
+        "calendar_title": "CALENDARIO 2026",
+        "item1": {
+            "text": "Campamento de buceo PADI - Open Water Diver",
+            "label": "Aventura"
+        },
+        "item2": {
+            "text": "Campamento de buceo PADI - Advaced Open Water Diver",
+            "label": "Lujo"
+        },
+        "item3": {
+            "text": "Campamento Fundive",
+            "label": "Lujo"
+        },
+        "item4": {
+            "text": "Viaje de Certificación Avanced Open Water Diver - Providencia",
+            "label": "Misterio"
+        },
+        "item5": {
+            "text": "Viaje de buceo para buzos certificados - Providencia",
+            "label": "Aventura"
+        },
+        "item6": {
+            "text": "Viaje de buceo para buzos certificados - Bonaire",
+            "label": "Adrenalina"
+        },
+        "item7": {
+            "text": "Experiencia de buceo - SAI",
+            "label": "Adrenalina"
+        },
+        "item8": {
+            "text": "Experiencia de buceo - SAI",
+            "label": "Adrenalina"
+        }
+    },
+    "camps": {
+        "no_camps_message": "No hay campamentos disponibles."
+    },
+    "item": {
+        "price_label": "Precio",
+        "add_to_cart_button": "Añadir al carrito"
+    },
+    "messages": {
+        "added_to_cart": "Añadido: {{title}}"
+    },
+    "auth": {
+        "name_placeholder": "Nombre Completo",
+        "email_placeholder": "Correo Electrónico",
+        "password_placeholder": "Contraseña",
+        "confirm_password_placeholder": "Confirmar Contraseña",
+        
+        "signup_button": "Crear Cuenta",
+        "login_button": "Ingresar",
+        "register_button": "Crear Cuenta",
+        
+        "loading": "Cargando...",
+        
+        "already_have_account": "¿Ya tienes una cuenta?",
+        "login_link": "Ingresar aquí",
+        
+        "no_account": "¿No tienes una cuenta?",
+        "register_link": "Regístrate aquí",
+        
+        "go_to_login": "Ir a Iniciar Sesión",
+        
+        "signup_success_title": "¡Registro Exitoso!",
+        "signup_success_message": "Tu cuenta ha sido creada. Ahora puedes iniciar sesión para acceder a tu perfil.",
+        
+        "error_password_match": "Las contraseñas no coinciden. Por favor, revísalas.",
+        "error_invalid_credentials": "Correo o contraseña incorrectos. Por favor, inténtalo de nuevo.",
+        "error_generic_signup": "Error al intentar crear la cuenta. Inténtalo más tarde.",
+        "error_generic_login": "Error al intentar iniciar sesión. Inténtalo más tarde."
+    },
+    "team": {
+        "padi_number": "N° Instructor PADI",
+        "roles": {
+            "ceo": "Liderazgo (CEO)",
+            "instructor": "Instructores",
+            "administrador": "Administradores"
+            }
+  }
+    
+}

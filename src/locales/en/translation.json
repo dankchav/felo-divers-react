@@ -1,0 +1,151 @@
+{
+    "nav": {
+        "home": "Home",
+        "camps": "Camps",
+        "experiences": "Experiences",
+        "trips": "Trips",
+        "certifications": "Certifications",
+        "team": "Team",
+        "view_details": "View Details"
+    },
+    "hero": {
+        "title": "COME AND LIVE THE BEST <br /> DIVING EXPERIENCE!",
+        "subtitle": "What are you waiting for?"
+    },
+    "button": {
+        "view_more": "View more"
+    },
+    "page_titles": {
+        "camps": "CAMPS",
+        "camps_full": "PADI DIVING <br /> CAMPS",
+        "trips": "TRIPS",
+        "experiences": "EXPERIENCES",
+        "team": "TEAM",
+        "certifications": "CERTIFICATIONS",
+        "login": "LOGIN",
+        "register": "REGISTER"
+    },
+    "search": {
+        "title": "Search Results for:",
+        "placeholder": "Search",
+        "no_results": "No results found for:"
+    },
+    "footer": {
+        "subscription_heading": "Join the Adventure newsletter to receive our best vacation deals",
+        "subscription_text": "You can unsubscribe at any time.",
+        "email_placeholder": "Your Email",
+        "subscribe_button": "Subscribe",
+        "rights": "Felo Divers ©",
+        "headings": {
+            "about_us": "About Us",
+            "contact_us": "Contact Us",
+            "videos": "Videos",
+            "social_media": "Social Media"
+        },
+        "links": {
+            "how_it_works": "How it works",
+            "testimonials": "Testimonials",
+            "careers": "Careers",
+            "investors": "Investors",
+            "terms": "Terms of Service",
+            "contact": "Contact",
+            "support": "Support",
+            "destinations": "Destinations",
+            "sponsorships": "Sponsorships",
+            "submit_video": "Submit Video",
+            "ambassadors": "Ambassadors",
+            "agency": "Agency",
+            "influencer": "Influencer"
+        }
+
+    },
+    "cart": {
+        "title": "Your Cart ({{count}})",
+        "empty_message": "Your cart is empty!",
+        "remove_item_title": "Remove item",
+        "total_label": "Total",
+        "checkout_button": "Proceed to Checkout"
+    },
+    "cards": {
+        "calendar_title": "CALENDAR 2026",
+        "item1": {
+            "text": "PADI Diving Camp - Open Water Diver",
+            "label": "Adventure"
+        },
+        "item2": {
+            "text": "PADI Diving Camp - Advanced Open Water Diver",
+            "label": "Luxury"
+        },
+        "item3": {
+            "text": "Fundive Camp",
+            "label": "Luxury"
+        },
+        "item4": {
+            "text": "Advanced Open Water Diver Certification Trip - Providencia",
+            "label": "Mystery"
+        },
+        "item5": {
+            "text": "Diving trip for certified divers - Providencia",
+            "label": "Adventure"
+        },
+        "item6": {
+            "text": "Diving trip for certified divers - Bonaire",
+            "label": "Adrenaline"
+        },
+        "item7": {
+            "text": "Diving Experience - SAI",
+            "label": "Adrenaline"
+        },
+        "item8": {
+            "text": "Diving Experience - SAI",
+            "label": "Adrenaline"
+        }
+    },
+    "camps": {
+        "no_camps_message": "No camps are currently available."
+    },
+    "item": {
+        "price_label": "Price",
+        "add_to_cart_button": "Add to cart"
+    },
+    "messages": {
+        "added_to_cart": "Added: {{title}}"
+    },
+    "auth": {
+        "name_placeholder": "Full Name",
+        "email_placeholder": "Email Address",
+        "password_placeholder": "Password",
+        "confirm_password_placeholder": "Confirm Password",
+        
+        "signup_button": "Create Account",
+        "login_button": "Log In",
+        "register_button": "Create Account",
+        
+        "loading": "Loading...",
+        
+        "already_have_account": "Already have an account?",
+        "login_link": "Log In here",
+        
+        "no_account": "Don't have an account?",
+        "register_link": "Register here",
+        
+        "go_to_login": "Go to Login",
+        
+        "signup_success_title": "Registration Successful!",
+        "signup_success_message": "Your account has been created. You can now log in to access your profile.",
+        
+        "error_password_match": "Passwords do not match. Please check them.",
+        "error_invalid_credentials": "Incorrect email or password. Please try again.",
+        "error_generic_signup": "Error attempting to create account. Please try again later.",
+        "error_generic_login": "Error attempting to log in. Please try again later."
+    },
+    "team": {
+        "padi_number": "PADI Instructor No.",
+        "roles": {
+            "ceo": "Leadership (CEO)",
+            "instructor": "Instructors",
+            "administrador": "Administrators"
+            }
+  }
+    
+}
