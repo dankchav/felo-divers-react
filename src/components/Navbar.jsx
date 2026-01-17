@@ -110,7 +110,7 @@ function Navbar() {
                         {/* Logo (se oculta en modo búsqueda) */}
                         {!searchActive && (
                             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                                <img src='images/logo.png' alt={t('alt.logo')} className='navbar__logo-img' />
+                                <img src='https://res.cloudinary.com/felodivers/image/upload/v1767801474/felo-divers/imagenes/logo_xfv9h8.png' alt={t('alt.logo')} className='navbar__logo-img' />
                             </Link>
                         )}
                         

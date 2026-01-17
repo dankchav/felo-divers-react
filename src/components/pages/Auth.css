@@ -3,28 +3,41 @@
 /* ==================================== */
 .auth-container {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: flex-start; /* Alinear arriba para que no flote en el centro de la pantalla */
-    min-height: 80vh; /* Asegura que ocupa la mayor parte de la pantalla */
-    padding: 100px 20px; /* Padding superior para separar del Navbar */
-    background-color: #f8f9fa; /* Fondo muy claro */
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 80vh;
+    padding: 100px 20px;
+    background: #f0f4f8;
 }
 
 .auth-content {
     background: #ffffff;
     padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px; /* Ancho máximo para el formulario */
+    max-width: 400px;
     text-align: center;
+    border-top: 4px solid #0066cc;
+    position: relative;
+    overflow: hidden;
+}
+
+.auth-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #0066cc;
 }
 
 /* ==================================== */
 /* 2. TÍTULOS Y MENSAJES */
 /* ==================================== */
 .auth-title {
-    color: #007bff; /* Un azul primario para el título */
+    color: #0066cc;
     font-size: 2rem;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -32,15 +45,15 @@
 }
 
 .success-title {
-    color: #28a745; /* Verde para el éxito */
+    color: #27ae60;
     font-size: 1.8rem;
     margin-bottom: 15px;
 }
 
 .error-message {
-    color: #dc3545; /* Rojo para errores */
-    background-color: #f8d7da;
-    border: 1px solid #f5c6cb;
+    color: #d73d3d;
+    background-color: #ffe0e0;
+    border: 1px solid #ff9a9a;
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -61,39 +74,42 @@
 .auth-form input[type="email"],
 .auth-form input[type="password"] {
     padding: 12px 15px;
-    border: 1px solid #ced4da;
-    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
     font-size: 1rem;
     width: 100%;
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-    transition: border-color 0.3s;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
 }
 
 .auth-form input:focus {
-    border-color: #007bff;
+    border-color: #00a8cc;
     outline: none;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 3px rgba(0, 168, 204, 0.15);
+    background-color: #f0fafb;
 }
 
 /* ==================================== */
-/* 4. BOTONES Y ENLACES (usando estilos globales) */
+/* 4. BOTONES Y ENLACES */
 /* ==================================== */
-
-/* El botón principal de registro/ingreso usa la clase btn--primary */
 .auth-form .btn--primary {
-    padding: 12px 20px;
-    font-size: 1.1rem;
+    padding: 12px 32px;
+    font-size: 15px;
     font-weight: 600;
+    letter-spacing: 0.5px;
     cursor: pointer;
-    background-color: #007bff;
+    background: #0066cc;
     color: white;
     border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s, opacity 0.3s;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 102, 204, 0.2);
 }
 
 .auth-form .btn--primary:hover:not(:disabled) {
-    background-color: #0056b3;
+    background: #004a94;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 74, 148, 0.3);
 }
 
 .auth-form .btn--primary:disabled {
@@ -103,16 +119,18 @@
 
 .auth-switch, .auth-link {
     font-size: 0.95rem;
-    color: #6c757d; /* Gris para texto secundario */
+    color: #6c757d;
 }
 
 .auth-switch a, .auth-link {
-    color: #007bff; /* Mismo azul para enlaces */
+    color: #0066cc;
     text-decoration: none;
     font-weight: 600;
+    transition: all 0.3s ease;
 }
 
 .auth-switch a:hover, .auth-link:hover {
+    color: #004a94;
     text-decoration: underline;
 }
 

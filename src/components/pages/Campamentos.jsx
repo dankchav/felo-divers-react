@@ -10,7 +10,24 @@ function Campamentos() {
 
   return (
     <>
-      <h1 className='campamentos' dangerouslySetInnerHTML={{ __html: t('page_titles.camps_full') }} />
+      <h1 className='campamentos'>{t('page_titles.camps')}</h1>
+      
+      <section className='campamentos-description'>
+        <div className='campamentos-description-content'>
+          <div className='description-card'>
+            <h2 className='description-main-title'>
+              {t('camps_page.main_title')} <span className='highlight'>La Casa de Felo Divers</span>
+            </h2>
+            <p className='description-text'>
+              {t('camps_page.description')}
+            </p>
+            <div className='cta-text'>
+              {t('camps_page.cta_text')}
+            </div>
+          </div>
+        </div>
+      </section>
+      
       <CampSection items={campamentosData} />
       <Footer />
     </>
