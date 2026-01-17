@@ -1,88 +1,210 @@
+.camp-section-list {
+    background: #ffffff;
+    padding: 60px 20px;
+    margin: 0;
+}
+
 .camp-section-container {
     max-width: 1200px;
     margin: 40px auto;
-    padding: 0 20px;
-    display: flex; /* Usamos flexbox en móvil para facilitar el cambio en desktop */
+    padding: 0;
+    display: flex;
     flex-direction: column;
-    gap: 30px; /* Espacio entre la imagen y el texto en móvil */
+    gap: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.camp-section-container:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
 }
 
 /* --- Estilos de la Imagen --- */
 
 .camp-section-hero {
-    /* Mantiene la relación de aspecto del cuadrado o ajusta según necesites */
     width: 100%;
-    /* Opcional: añade un padding-bottom para forzar una relación de aspecto si la imagen no lo es */
-    /* padding-bottom: 100%; */ 
     position: relative;
     overflow: hidden;
+    border-radius: 0;
+    height: 300px;
 }
 
 .camp-section-image {
-    /* Para que la imagen cubra bien el contenedor */
     width: 100%;
-    height: 100%; 
+    height: 100%;
     display: block;
     object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    box-shadow: none;
+    transition: transform 0.4s ease;
+}
+
+.camp-section-image:hover {
+    transform: scale(1.08);
 }
 
 /* --- Estilos del Contenido de Texto --- */
 
 .camp-section-content {
-    padding: 10px 0;
+    padding: 40px 30px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
 }
 
 .camp-section-content h1 {
     font-size: 1.8rem;
-    color: #252e48;
+    color: #0d1117;
     margin-bottom: 15px;
     text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.2;
 }
 
 .camp-section-price {
-    font-size: 1.2rem;
-    color: #1f98f4;
+    font-size: 1.3rem;
+    color: rgb(0, 45, 71);
     margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.camp-section-includes {
+    margin: 25px 0;
+    padding: 20px;
+    background: rgba(0, 45, 71, 0.05);
+    border-radius: 6px;
+}
+
+.includes-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #0d1117;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.includes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.includes-list li {
+    margin-bottom: 6px;
+    padding-left: 0;
+}
+
+.includes-list li:before {
+    content: "• ";
+    color: rgb(0, 45, 71);
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+.camp-section-content > p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 0;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.camp-section-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.btn-see-more {
+    background: rgb(0, 45, 71);
+    color: white;
+    border: 2px solid rgb(0, 45, 71);
+    padding: 12px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    flex: 1;
+    min-width: 140px;
+}
+
+.btn-see-more:hover {
+    background: transparent;
+    color: rgb(0, 45, 71);
 }
 
 .btn-reserve {
-    background-color: #008aff;
+    background: #C40018;
     color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
+    border: 2px solid #C40018;
+    padding: 12px 32px;
+    border-radius: 4px;
     cursor: pointer;
-    font-size: 1rem;
-    margin-top: 15px;
-    transition: background-color 0.3s;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    flex: 1;
+    min-width: 140px;
+}
+
+.btn-reserve:hover {
+    background: transparent;
+    color: #C40018;
 }
 
 @media (min-width: 768px) {
     
     .camp-section-container {
         flex-direction: row; 
-        align-items: flex-start; 
-        gap: 60px; 
-        margin: 80px auto;
+        align-items: stretch;
+        gap: 0; 
+        margin: 30px auto;
     }
 
     .camp-section-hero {
-        flex: 1.2; 
+        flex: 0 0 45%; 
+        height: auto;
+        min-height: 380px;
+    }
+
+    .camp-section-image {
+        height: 100%;
+        min-height: 380px;
     }
 
     .camp-section-content {
         flex: 1; 
-        padding-top: 0; 
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .camp-section-content h1 {
+        font-size: 2rem;
     }
 
     .camp-section-container.reverse {
         flex-direction: row-reverse;
-    }
-
-   
-    .camp-section-container {
-        align-items: center; 
     }
 }

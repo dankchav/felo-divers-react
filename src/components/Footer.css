@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #242424;
+  background-color: rgb(0, 45, 71);
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -47,13 +47,15 @@
 
 .footer-links {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
+  gap: 80px;
 }
 
 .footer-link-wrapper {
   display: flex;
+  gap: 80px;
 }
 
 .footer-link-items {
@@ -62,12 +64,16 @@
   align-items: flex-start;
   margin: 16px;
   text-align: left;
-  width: 160px;
+  width: 180px;
   box-sizing: border-box;
 }
 
 .footer-link-items h2 {
   margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .footer-link-items > h2 {
@@ -78,6 +84,8 @@
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .footer-link-items a:hover {

@@ -6,6 +6,7 @@
         "trips": "Trips",
         "certifications": "Certifications",
         "team": "Team",
+        "signup": "Sign Up",
         "view_details": "View Details"
     },
     "hero": {
@@ -13,7 +14,8 @@
         "subtitle": "What are you waiting for?"
     },
     "button": {
-        "view_more": "View more"
+        "view_more": "View more",
+        "reservar": "Book"
     },
     "page_titles": {
         "camps": "CAMPS",
@@ -29,6 +31,23 @@
         "title": "Search Results for:",
         "placeholder": "Search",
         "no_results": "No results found for:"
+    },
+    "cards_section": {
+        "camps": "Camps",
+        "camps_desc": "Immerse yourself in complete diving experiences with accommodation, food and activities guided by our PADI certified instructors.",
+        "certifications": "Certifications",
+        "certifications_desc": "Get your PADI certifications from Open Water to technical specialties. Become a professional certified diver.",
+        "trips": "Trips",
+        "trips_desc": "Explore unique underwater destinations on domestic and international trips. Dive at the best sites with our experts.",
+        "experiences": "Experiences",
+        "experiences_desc": "Discover the magic of the underwater world with diving experiences designed for all levels and ages.",
+        "view_more": "View more"
+    },
+    "camps_page": {
+        "title": "CAMPS",
+        "main_title": "Join the combo of divers at",
+        "description": "Live intense underwater adventures with divers from around the world. Each camp combines professional certification, comfortable accommodation and authentic regional gastronomy.",
+        "cta_text": "Discover the experience of each camp! Choose the right one for you 🌊"
     },
     "footer": {
         "subscription_heading": "Join the Adventure newsletter to receive our best vacation deals",
@@ -57,7 +76,15 @@
             "agency": "Agency",
             "influencer": "Influencer"
         }
-
+    },
+    "footer_section": {
+        "main_menu": "MAIN MENU",
+        "more_info": "MORE INFORMATION",
+        "where_we_are": "WHERE ARE WE?",
+        "contact": "CONTACT",
+        "policies": "Policies and Terms",
+        "location": "Polley Hill, N 10 7<br />San Andrés, Islands<br />San Andrés and Providencia",
+        "copyright": "© 2025 Felo Divers - Diving Center in San Andrés"
     },
     "cart": {
         "title": "Your Cart ({{count}})",
@@ -145,7 +172,127 @@
             "ceo": "Leadership (CEO)",
             "instructor": "Instructors",
             "administrador": "Administrators"
+        }
+    },
+    "alt_texts": {
+        "logo_img": "Felo Divers Logo"
+    },
+    "sobrenosotros": {
+        "main_title": "WHY CHOOSE?",
+        "description_part1": "Felo Divers is a company of professional divers passionate about the marine world that inspires you to dive better: with technique, conscience and respect for the sea, the island and its culture. Our passion is to take more and more Divers to the ocean floor so they can discover the magic it holds, and so that through our daily actions we can all contribute to the care and protection of marine life.",
+        "description_part2": "Felo Divers House is the only diving house 100% dedicated to diving in the region, where you don't just get certified or dive: you live a complete and transformative experience. We are proud to offer comfortable accommodation in our facilities and authentic food prepared by local hands that maintain the culinary essence of our islands. Here, diving is a way of life and we want you to live it from the moment you arrive. Come discover why thousands of divers choose us every year to live their most memorable underwater adventure.",
+        "why_choose": [
+            {
+                "title": "Experience",
+                "description": "20 years specializing in diving and marine care in San Andrés."
+            },
+            {
+                "title": "Privileged Location",
+                "description": "Located in San Andrés, we dive 365 days a year with the best conditions."
+            },
+            {
+                "title": "Global Community",
+                "description": "More than 4000 divers certified per year from different parts of the world."
+            },
+            {
+                "title": "Marine Care",
+                "description": "Committed to protecting and caring for the ocean and marine life."
+            },
+            {
+                "title": "PADI Certifications",
+                "description": "Professional courses with certified instructors and proven experience."
+            },
+            {
+                "title": "Unique Trips",
+                "description": "International and domestic trips with unforgettable adventures."
             }
-  }
-    
+        ]
+    },
+    "house_reviews": {
+        "title": "EXPERIENCES AT",
+        "cta": "🏡 Live the complete experience: diving by day, comfort and local food by night. Book your stay today!"
+    },
+    "destinations": {
+        "title": "WHY DIVE IN",
+        "p1": "San Andrés Islands (SAI) is one of the most incredible diving destinations in the Caribbean. Its coral reefs, diverse marine life and crystal clear waters make it an underwater paradise.",
+        "p2": "Providencia offers an even wilder and more authentic experience, with virgin diving sites, deep waters and exceptional marine biodiversity. Here you will find everything from colorful reefs to encounters with reef sharks.",
+        "p3": "With more than 365 days of diving per year and optimal conditions for most of the year, these islands offer you the opportunity to explore the underwater world in its fullest expression. From beginners to advanced divers, there is something for everyone.",
+        "p4": "It's not just diving, it's a transformative experience that connects you with nature, local culture and inspires you to protect our oceans."
+    },
+    "reviews": {
+        "title": "WHAT OUR",
+        "cta": "Join thousands of satisfied divers. Come and create your own story with us!"
+    },
+    "social_networks": {
+        "title": "OUR SOCIAL",
+        "facebook": "Facebook",
+        "facebook_desc": "Follow us on Facebook for daily updates, diving photos and special promotions.",
+        "facebook_link": "Go to Facebook",
+        "instagram": "Instagram",
+        "instagram_desc": "Explore our visual stories, diving videos and gallery of unforgettable moments.",
+        "instagram_link": "Go to Instagram",
+        "tiktok": "TikTok",
+        "tiktok_desc": "Discover short and exciting videos of our underwater adventures on TikTok.",
+        "tiktok_link": "Go to TikTok",
+        "community_title": "READY TO JOIN OUR COMMUNITY?",
+        "community_text": "Be part of the Felo Divers community and access exclusive content, special offers and meet divers from around the world.",
+        "community_button": "Join Felo Divers Community"
+    },
+    "about": {
+        "sobre_nosotros": {
+            "title": "ABOUT US",
+            "description": "Felo Divers is a company of professional divers passionate about the marine world. Our passion is to take more and more Divers to the ocean floor so they can discover the magic it holds, and so that through our daily actions we can all contribute to the care and protection of marine life.",
+            "experience": "20 years of learning and growing as divers give us the capacity today to guide, accompany and lead diving trips, experiences and certifications."
+        },
+        "por_que_elegirnos": {
+            "title": "WHY CHOOSE US?",
+            "experience": {
+                "title": "Experience",
+                "description": "20 years specializing in diving and marine care in San Andrés."
+            },
+            "location": {
+                "title": "Privileged Location",
+                "description": "Located in San Andrés, we dive 365 days a year with the best conditions."
+            },
+            "community": {
+                "title": "Global Community",
+                "description": "More than 4000 divers certified per year from different parts of the world."
+            },
+            "marine_care": {
+                "title": "Marine Care",
+                "description": "Committed to protecting and caring for the ocean and marine life."
+            },
+            "certifications": {
+                "title": "PADI Certifications",
+                "description": "Professional courses with certified instructors and proven experience."
+            },
+            "trips": {
+                "title": "Unique Trips",
+                "description": "International and domestic trips with unforgettable adventures."
+            }
+        },
+        "logros": {
+            "title": "OUR ACHIEVEMENTS",
+            "intro_courses": "Introductory Courses",
+            "open_water_certs": "Open Water Certificates",
+            "advanced_certs": "Advanced Certificates",
+            "dive_trips": "Dive Trips"
+        }
+    },
+    "certifications": {
+        "incluye": "Includes",
+        "no_incluye": "Not included",
+        "itinerario": "Itinerary",
+        "dia": "Day",
+        "solicitar_informacion": "Request Information",
+        "disponible": "Available",
+        "precio": "Price",
+        "duracion": "Duration",
+        "requisitos": "Requirements",
+        "informacion_curso": "Course Information",
+        "descripcion_curso": "Course Description",
+        "que_necesitas": "What do you need to start?",
+        "ver_mas": "View more",
+        "plazas_limitadas": "LIMITED SPOTS!"
+    }
 }

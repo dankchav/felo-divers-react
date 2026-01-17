@@ -1,21 +1,35 @@
 import React from 'react';
 import './CampSection.css';
 import { useCart } from '../context/CartContext';
+import { useNavigate } from 'react-router-dom';
 // 1. Importar el hook de i18next
 import { useTranslation } from 'react-i18next';
 
 function CampDetailItem({ item, className }) {
     // 2. Obtener la función de traducción 't'
     const { t } = useTranslation(); 
+    const navigate = useNavigate();
     
     const {addItemToCart} = useCart();
     
     if (!item) return null; 
 
-    const handleAddToCart = () => {
-        addItemToCart(item);
-        // NOTA: El mensaje de consola idealmente también debería usar la traducción
-        console.log(t('messages.added_to_cart', { title: item.titulo }))
+    const handleReserve = () => {
+        const whatsappNumber = '+573167864752';
+        const message = `Hola Felo Divers, me gustaría reservar: ${item.titulo}. Precio: ${item.precio}`;
+        const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappURL, '_blank');
+    }
+
+    const handleVerMas = () => {
+        if (item.slug) {
+            // Determinar la ruta según el tipo de item (etiqueta)
+            if (item.etiqueta === 'Certificaciones') {
+                navigate(`/certificacion/${item.slug}`);
+            } else {
+                navigate(`/campamento/${item.slug}`);
+            }
+        }
     }
 
     return (
@@ -35,8 +49,28 @@ function CampDetailItem({ item, className }) {
                     {/* 3. Traducción de la etiqueta Precio */}
                     {t('item.price_label')}: <strong>{item.precio}</strong>
                 </p>
-                {/* 4. Traducción del botón */}
-                <button className='btn-reserve' onClick={handleAddToCart}>{t('item.add_to_cart_button')}</button>
+
+                {/* INCLUYE */}
+                {item.contenidoCompleto && (
+                    <div className='camp-section-includes'>
+                        <h4 className='includes-title'>✓ Incluye</h4>
+                        <ul className='includes-list'>
+                            {item.contenidoCompleto.incluye && item.contenidoCompleto.incluye.map((item, index) => (
+                                <li key={index}>{item}</li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
+                <div className='camp-section-buttons'>
+                    {/* Botón Ver Más */}
+                    {item.slug && (
+                        <button className='btn-see-more' onClick={handleVerMas}>
+                            Ver más
+                        </button>
+                    )}
+                    {/* Botón Reservar */}
+                    <button className='btn-reserve' onClick={handleReserve}>Reservar</button>
+                </div>
             </div>
             
         </div>

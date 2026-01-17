@@ -20,17 +20,37 @@
 }
 
 .campamentos {
-  background-image: url('/images/img02.jpg');
-  background-position: center;
+  background-image: url('https://res.cloudinary.com/felodivers/image/upload/v1767801437/felo-divers/imagenes/img02_cloqgp.jpg');
+  background-position: center 35%;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  position: relative;
+}
+
+.campamentos::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  z-index: 0;
+}
+
+.campamentos h1 {
+  position: relative;
+  z-index: 1;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .certificaciones {
-  background-image: url('/images/img13.jpeg');
-  background-position: center;
+  background-image: url('https://res.cloudinary.com/felodivers/image/upload/v1767801466/felo-divers/imagenes/img13_zc5p1y.jpg');
+  background-position: center 65%;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -38,8 +58,8 @@
 }
 
 .viajes {
-  background-image: url('/images/img10.jpg');
-  background-position: center;
+  background-image: url('https://res.cloudinary.com/felodivers/image/upload/v1767801457/felo-divers/imagenes/img10_dzknmn.jpg');
+  background-position: center 60%;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -47,8 +67,8 @@
 }
 
 .experiencias {
-  background-image: url('/images/img11.jpg');
-  background-position: center;
+  background-image: url('https://res.cloudinary.com/felodivers/image/upload/v1767801463/felo-divers/imagenes/img11_s4jvuk.jpg');
+  background-position: center 30%;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -56,8 +76,8 @@
 }
 
 .equipo {
-  background-image: url('/images/img14.jpg');
-  background-position: center;
+  background-image: url('https://res.cloudinary.com/felodivers/image/upload/v1767801468/felo-divers/imagenes/img14_plt6sq.jpg');
+  background-position: center 30%;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -65,10 +85,116 @@
 }
 
 .sign-up {
-  background-image: url('/images/img-8.jpg');
-  background-position: center;
+  background-image: url('https://res.cloudinary.com/felodivers/image/upload/v1767801450/felo-divers/imagenes/img08_uoq64l.png');
+  background-position: center 35%;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+/* === SECCIÓN DE DESCRIPCIÓN DE CAMPAMENTOS === */
+.campamentos-description {
+  background: linear-gradient(135deg, #f0f4f8 0%, #e8f0f7 100%);
+  padding: 60px 20px;
+  margin: 0;
+}
+
+.campamentos-description-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.description-card {
+  background: transparent;
+  padding: 40px 0;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+.description-main-title {
+  font-size: 1.8rem;
+  color: #0d1117;
+  margin-bottom: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.description-main-title .highlight {
+  color: #C40018;
+  display: block;
+  margin-top: 5px;
+}
+
+.description-text {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.7;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cta-text {
+  font-size: 1.2rem;
+  color: rgb(0, 45, 71);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 2px solid rgba(0, 45, 71, 0.2);
+  letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .campamentos-description {
+    padding: 40px 15px;
+  }
+
+  .description-card {
+    padding: 30px 0;
+  }
+
+  .description-main-title {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+
+  .description-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .cta-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .campamentos-description {
+    padding: 25px 12px;
+  }
+
+  .description-card {
+    padding: 20px 0;
+    border-left: none;
+  }
+
+  .description-main-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .description-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .cta-text {
+    font-size: 0.95rem;
+    margin-top: 18px;
+    padding-top: 15px;
+  }
 }

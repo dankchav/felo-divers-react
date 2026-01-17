@@ -16,7 +16,7 @@ function HeroSection() {
 
   return (
     <div className='hero-container'>
-      <video src='/videos/video01.mp4' autoPlay loop muted />
+      <video src='https://res.cloudinary.com/felodivers/video/upload/v1767801299/felo-divers/videos/video01_jdvsfv.mp4' autoPlay loop muted />
       <h1 dangerouslySetInnerHTML={{ __html: t('hero.title') }} />
       
       <p>{t('hero.subtitle')}</p>
@@ -28,7 +28,7 @@ function HeroSection() {
           buttonSize='btn--large'
           to = {whatsappURL}
         >
-          {t('button.view_more')}
+          {t('button.reservar')}
         </Button>
       </div>
     </div>

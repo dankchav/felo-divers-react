@@ -6,6 +6,7 @@
         "trips": "Viajes",
         "certifications": "Certificaciones",
         "team": "Equipo",
+        "signup": "Ingresar",
         "view_details": "Ver Detalles"
     },
     "hero": {
@@ -13,7 +14,8 @@
         "subtitle": "¿Qué estás esperando?"
     },
     "button": {
-        "view_more": "Ver más"
+        "view_more": "Ver más",
+        "reservar": "Reservar"
     },
     "page_titles": {
         "camps": "CAMPAMENTOS",
@@ -29,6 +31,23 @@
         "title": "Resultados de Búsqueda para:",
         "placeholder": "Buscar",
         "no_results": "No se encontraron resultados para:"
+    },
+    "cards_section": {
+        "camps": "Campamentos",
+        "camps_desc": "Sumérgete en experiencias de buceo completas con alojamiento, alimentación y actividades guiadas por nuestros instructores certificados PADI.",
+        "certifications": "Certificaciones",
+        "certifications_desc": "Obtén tus certificaciones PADI desde Open Water hasta especialidades técnicas. Conviértete en un buzo profesional certificado.",
+        "trips": "Viajes",
+        "trips_desc": "Explora destinos submarinos únicos en viajes nacionales e internacionales. Bucea en los mejores sitios con nuestros expertos.",
+        "experiences": "Experiencias",
+        "experiences_desc": "Descubre la magia del mundo submarino con experiencias de buceo diseñadas para todos los niveles y edades.",
+        "view_more": "Ver más"
+    },
+    "camps_page": {
+        "title": "CAMPAMENTOS",
+        "main_title": "Únete al combo de buzos en",
+        "description": "Vive intensas aventuras submarinas junto a buceadores de todo el mundo. Cada campamento combina certificación profesional, alojamiento confortable y gastronomía raizal auténtica.",
+        "cta_text": "¡Descubre la experiencia de cada campamento! Elige el adecuado para ti 🌊"
     },
     "footer": {
         "subscription_heading": "Únete al boletín de la aventura para recibir nuestras mejores ofertas vacacionales",
@@ -57,6 +76,15 @@
             "agency": "Agencia",
             "influencer": "Influencers"
         }
+    },
+    "footer_section": {
+        "main_menu": "MENÚ PRINCIPAL",
+        "more_info": "MÁS INFORMACIÓN",
+        "where_we_are": "¿DÓNDE ESTAMOS?",
+        "contact": "CONTACTO",
+        "policies": "Políticas y Términos",
+        "location": "Polley Hill, N 10 7<br />San Andrés, Islas<br />San Andrés y Providencia",
+        "copyright": "© 2025 Felo Divers - Centro de Buceo en San Andrés"
     },
     "cart": {
         "title": "Tu Carrito ({{count}})", 
@@ -144,7 +172,127 @@
             "ceo": "Liderazgo (CEO)",
             "instructor": "Instructores",
             "administrador": "Administradores"
+        }
+    },
+    "alt_texts": {
+        "logo_img": "Logo de Felo Divers"
+    },
+    "sobrenosotros": {
+        "main_title": "¿POR QUÉ ELEGIR?",
+        "description_part1": "Felo Divers es una empresa de buzos profesionales y apasionados por el mundo marino que inspira a bucear mejor: con técnica, conciencia y respeto por el mar, la isla y su cultura. Nuestra pasión es llevar cada vez a más Divers al fondo del mar para que conozcan la magia que lo compone, y que desde acciones cotidianas todos podamos contribuir al cuidado y protección de la vida marina.",
+        "description_part2": "La Casa de Felo Divers es la única casa de buceo 100% dedicada al buceo en la región, donde no solo te certificas o buceas: vives una experiencia completa y transformadora. Nos enorgullece ofrecer alojamiento confortable en nuestras instalaciones y alimentación auténtica preparada por manos raizales que mantienen la esencia culinaria de nuestras islas. Aquí, el buceo es un estilo de vida y queremos que lo vivas desde el primer momento que llegas. Ven y descubre por qué miles de buceadores nos eligen cada año para vivir su aventura submarina más memorable.",
+        "why_choose": [
+            {
+                "title": "Experiencia",
+                "description": "20 años especializándonos en buceo y cuidado marino en San Andrés."
+            },
+            {
+                "title": "Ubicación Privilegiada",
+                "description": "Ubicados en San Andrés, buceamos los 365 días del año con las mejores condiciones."
+            },
+            {
+                "title": "Comunidad Global",
+                "description": "Más de 4000 buzos certificados al año de diferentes partes del mundo."
+            },
+            {
+                "title": "Cuidado Marino",
+                "description": "Comprometidos con la protección y cuidado del océano y la vida marina."
+            },
+            {
+                "title": "Certificaciones PADI",
+                "description": "Cursos profesionales con instructores certificados y experiencia probada."
+            },
+            {
+                "title": "Viajes Únicos",
+                "description": "Viajes internacionales y nacionales con aventuras inolvidables."
             }
-  }
-    
+        ]
+    },
+    "house_reviews": {
+        "title": "EXPERIENCIAS EN",
+        "cta": "🏡 Vive la experiencia completa: buceo de día, comodidad y comida raizal de noche. ¡Reserva tu estancia hoy!"
+    },
+    "destinations": {
+        "title": "¿POR QUÉ BUCEAR EN",
+        "p1": "San Andrés Islas (SAI) es uno de los destinos de buceo más increíbles del Caribe. Sus arrecifes de coral, vida marina diversa y aguas cristalinas lo convierten en un paraíso submarino.",
+        "p2": "Providencia ofrece una experiencia aún más salvaje y auténtica, con sitios de buceo vírgenes, aguas profundas y una biodiversidad marina excepcional. Aquí encontrarás desde coloridos arrecifes hasta encuentros con tiburones de arrecife.",
+        "p3": "Con más de 365 días de buceo al año y condiciones óptimas durante la mayoría del año, estas islas te ofrecen la oportunidad de explorar el mundo submarino en su máxima expresión. Desde principiantes hasta buceadores avanzados, hay algo para todos.",
+        "p4": "No es solo buceo, es una experiencia transformadora que te conecta con la naturaleza, la cultura local y te inspira a proteger nuestros océanos."
+    },
+    "reviews": {
+        "title": "LO QUE DICEN NUESTROS",
+        "cta": "Únete a miles de buceadores satisfechos. ¡Ven y crea tu propia historia con nosotros!"
+    },
+    "social_networks": {
+        "title": "NUESTRAS",
+        "facebook": "Facebook",
+        "facebook_desc": "Síguenos en Facebook para actualizaciones diarias, fotos de buceos y promociones especiales.",
+        "facebook_link": "Ir a Facebook",
+        "instagram": "Instagram",
+        "instagram_desc": "Explora nuestras historias visuales, videos de buceo y galería de momentos inolvidables.",
+        "instagram_link": "Ir a Instagram",
+        "tiktok": "TikTok",
+        "tiktok_desc": "Descubre videos cortos y emocionantes de nuestras aventuras submarinas en TikTok.",
+        "tiktok_link": "Ir a TikTok",
+        "community_title": "¿LISTO PARA UNIRTE A NUESTRA COMUNIDAD?",
+        "community_text": "Sé parte de la comunidad Felo Divers y accede a contenido exclusivo, ofertas especiales y conoce a buceadores de todo el mundo.",
+        "community_button": "Unirme Comunidad Felo Divers"
+    },
+    "about": {
+        "sobre_nosotros": {
+            "title": "SOBRE NOSOTROS",
+            "description": "Felo Divers es una empresa de buzos profesionales y apasionados por el mundo marino. Nuestra pasión es llevar cada vez a más Divers al fondo del mar para que conozcan la magia que lo compone, y que desde acciones cotidianas todos podamos contribuir al cuidado y protección de la vida marina.",
+            "experience": "20 años aprendiendo y creciendo como buzos nos dan hoy la capacidad de guiar, acompañar y liderar viajes, experiencias y certificaciones de buceo."
+        },
+        "por_que_elegirnos": {
+            "title": "¿POR QUÉ ELEGIRNOS?",
+            "experience": {
+                "title": "Experiencia",
+                "description": "20 años especializándonos en buceo y cuidado marino en San Andrés."
+            },
+            "location": {
+                "title": "Ubicación Privilegiada",
+                "description": "Ubicados en San Andrés, buceamos los 365 días del año con las mejores condiciones."
+            },
+            "community": {
+                "title": "Comunidad Global",
+                "description": "Más de 4000 buzos certificados al año de diferentes partes del mundo."
+            },
+            "marine_care": {
+                "title": "Cuidado Marino",
+                "description": "Comprometidos con la protección y cuidado del océano y la vida marina."
+            },
+            "certifications": {
+                "title": "Certificaciones PADI",
+                "description": "Cursos profesionales con instructores certificados y experiencia probada."
+            },
+            "trips": {
+                "title": "Viajes Únicos",
+                "description": "Viajes internacionales y nacionales con aventuras inolvidables."
+            }
+        },
+        "logros": {
+            "title": "NUESTROS LOGROS",
+            "intro_courses": "Cursos Introductorios",
+            "open_water_certs": "Certificados Open Water",
+            "advanced_certs": "Certificados Avanzados",
+            "dive_trips": "Salidas de Buceo"
+        }
+    },
+    "certificaciones": {
+        "incluye": "Incluye",
+        "no_incluye": "No incluye",
+        "itinerario": "Itinerario",
+        "dia": "Día",
+        "solicitar_informacion": "Solicitar Información",
+        "disponible": "Disponible",
+        "precio": "Precio",
+        "duracion": "Duración",
+        "requisitos": "Requisitos",
+        "informacion_curso": "Información del curso",
+        "descripcion_curso": "Descripción del curso",
+        "que_necesitas": "¿Qué necesitas para empezar?",
+        "ver_mas": "Ver más",
+        "plazas_limitadas": "¡PLAZAS LIMITADAS!"
+    }
 }
